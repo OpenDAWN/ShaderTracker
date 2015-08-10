@@ -1,0 +1,2101 @@
+// Global settings
+#amp 0.25
+#step 0.15
+
+#func glissando_r
+// -------------------- Part C opening glissando -------------
+#reset
+#tune 1.0
+#wave 0
+#duty 0.5
+#step 38.4
+#amp 0.2
+-
+#step 0.05
+#decay 0.08
+#len 0.011
+G6
+#amp 0.033
+F6
+#amp 0.055
+E6
+#amp 0.077
+D6
+#amp 0.092
+C6
+#amp 0.108
+B5
+#amp 0.123
+A5
+#amp 0.139
+G5
+#amp 0.154
+F5
+#amp 0.16
+E5
+#amp 0.18
+D5
+#amp 0.2
+C5
+#endfunc
+
+#func glissando_l
+// -------------------- Part C opening glissando -------------
+#reset
+#tune 1.0
+#wave 0
+#duty 0.5
+#step 38.4
+#amp 0.2
+-
+#step 0.05
+#decay 0.08
+#len 0.1
+G6
+#amp 0.18
+F6
+#amp 0.16
+E6
+#amp 0.154
+D6
+#amp 0.139
+C6
+#amp 0.123
+B5
+#amp 0.108
+A5
+#amp 0.092
+G5
+#amp 0.077
+F5
+#amp 0.055
+E5
+#amp 0.033
+D5
+#amp 0.011
+C5
+#endfunc
+
+#func cextras
+// ------------------ Extras for Part C ----------------------
+#reset
+#tune 2.0
+#wave 0
+#duty 0.4
+#step 38.4
+#amp 0.15
+-
+#step 0.15
+
+#decay 0.3
+#len 0.3
+// 00
+E5
+G4
+C5
+E5
+-
+C5
+G4
+G3
+D5
+-
+-
+D5
+-
+B#4
+F4
+D4
+// 01
+E5
+-
+-
+E5
+-
+C5
+G4
+G3
+D5
+B5
+B#5
+F5
+-
+G5
+-
+E5
+// 02
+E5
+-
+-
+E5
+-
+C5
+G4
+G3
+D5
+-
+-
+D5
+-
+B#4
+F4
+D4
+// 03
+E5
+-
+-
+E5
+-
+C5
+G4
+G3
+D5
+B5
+B#5
+F5
+-
+G5
+-
+E5
+// 00
+E5
+-
+-
+E5
+-
+C5
+G4
+G3
+D5
+-
+-
+D5
+-
+B#4
+F4
+D4
+// 01
+E5
+-
+-
+E5
+-
+C5
+G4
+G3
+D5
+B5
+B#5
+F5
+-
+G5
+-
+E5
+// 02
+E5
+-
+-
+E5
+-
+C5
+G4
+G3
+D5
+-
+-
+D5
+-
+B#4
+F4
+D4
+// 03
+#decay 0.5
+#len 0.15
+G4
+G4
+-
+D4
+G4
+G4
+-
+D4
+G5
+-
+D5
+D5
+#decay 0.5
+#len 0.3
+D#5
+-
+D5
+-
+
+
+#endfunc
+
+#func abacking
+// --------------------------- Extra backing for part A --------------
+#reset
+#tune 4.0
+#wave 0
+#duty 0.5
+#step 0.15
+#decay 0.1
+#len 0.15
+#amp 0.25
+
+// 00
+E4
+-
+-
+E4
+-
+G3
+C4
+G3
+F4
+-
+F4
+-
+F#4
+-
+F#4
+-
+// 01
+G4
+-
+-
+D4
+-
+D4
+F4
+D4
+E4
+-
+E4
+-
+C4
+-
+D4
+-
+// 02
+E4
+-
+-
+C4
+-
+C4
+E4
+C4
+F#3
+-
+F#3
+-
+D3
+-
+F#3
+-
+// 03
+#decay 0.6
+#len 0.55
+#tune 2.0
+A4
+-
+-
+-
+G4
+-
+-
+-
+A4
+-
+-
+-
+B4
+-
+-
+-
+
+#decay 0.1
+#len 0.15
+#tune 4.0
+// 00
+E4
+-
+-
+E4
+-
+G3
+C4
+G3
+F4
+-
+F4
+-
+F#4
+-
+F#4
+-
+// 01
+G4
+-
+-
+D4
+-
+D4
+F4
+D4
+E4
+-
+E4
+-
+C4
+-
+D4
+-
+// 02
+E4
+-
+-
+C4
+-
+C4
+E4
+C4
+F#3
+-
+F#3
+-
+D3
+-
+F#3
+-
+// 03
+#decay 0.6
+#len 0.55
+#tune 2.0
+A4
+-
+-
+-
+G4
+-
+-
+-
+A4
+-
+-
+-
+B4
+-
+-
+-
+
+#endfunc
+
+#func extbchords
+// ----------------- Added chords for Part B ---------------------
+#reset
+#tune 1.0
+#wave 1
+#step 19.2
+-
+#step 0.15
+#decay 0.45
+#len 0.3
+// 00
+A3
+-
+-
+-
+B3
+-
+-
+#len 0.15
+C4
+#step 3.6
+// 01
+-
+#step 0.15
+#decay 0.45
+#len 0.3
+// 00
+A3
+-
+-
+-
+B3
+-
+-
+#len 0.15
+C4
+#step 3.6
+// 01
+-
+#step 0.15
+#decay 0.45
+#len 0.3
+// 00
+A3
+-
+-
+-
+B3
+-
+-
+#len 0.15
+C4
+#step 3.6
+// 01
+-
+#step 0.15
+#decay 0.45
+#len 0.3
+// 00
+A3
+-
+-
+-
+B3
+-
+-
+#len 0.15
+C4
+#step 3.6
+// 01
+-
+
+
+#endfunc
+
+#func echo1b
+// ---------------------- Echo for part B ------------------------
+#reset
+#tune 1.0
+#wave 0
+#step 19.2
+-
+// 00 Part B with tiny delay
+#step 0.15
+-
+-
+-
+#duty 0.5
+#len 0.15
+// Basically no decay
+#decay 0.4
+#amp 0.1
+-
+G5
+A5
+B5
+C6
+C6
+-
+C6
+#step 0.2
+C6
+B5
+A5
+#step 0.15
+G5
+-
+-
+C5
+// 01
+G5
+-
+A5
+F5
+-
+G5
+-
+F5
+-
+F5
+D5
+E5
+F5
+G5
+A5
+B5
+// 02
+C6
+-
+-
+-
+-
+G5
+A5
+C6
+E6
+C6
+F6
+C6
+G6
+C6
+-
+C6
+// 03
+A6
+-
+A6
+A6
+G6
+-
+F6
+E6
+-
+C6
+D6
+B5
+C6
+-
+-
+-
+// 00 B2
+-
+-
+-
+-
+C6
+G5
+-
+G5
+-
+G5
+-
+G5
+C6
+G5
+D6
+G5
+// 01
+E6
+G5
+-
+G5
+-
+G5
+-
+G5
+F5
+G5
+A5
+A5
+-
+B5
+-
+G5
+// 02
+-
+-
+-
+-
+-
+-
+-
+-
+C6
+D6
+E6
+E6
+-
+// 03 As long as we're here, add more harmony
+#duty 0.4
+#decay 0.7
+#len 0.45
+#amp 0.25
+A4
+-
+-
+-
+G4
+-
+-
+-
+A4
+-
+-
+-
+B4
+-
+-
+#endfunc
+#func subdrums
+// ---------------------- Extra hi-hat stuff -----------------------
+#reset
+#tune 1.0
+#amp 0.08
+#decay 0.2
+#len 0.2
+#wave 4
+#tmod 0.6
+#step 0.15
+
+#len 0.04
+#decay 2
+E1
+F1
+#len 0.3
+#decay 0.3
+C1
+-
+
+#endfunc
+
+#func drums
+// ---------------------------- Drums ------------------------------
+#reset
+#tune 1.0
+#amp 0.25
+#decay 0.1
+#len 0.1
+#wave 4
+#step 0.15
+#tmod 4.8
+
+// Main backing
+#amp 0.25
+C4
+-
+#amp 0.1
+C1
+#amp 0.15
+D1
+#amp 0.25
+C3
+-
+#amp 0.15
+C1
+-
+// Main backing
+#amp 0.25
+C4
+-
+#amp 0.1
+C1
+#amp 0.15
+D1
+#amp 0.25
+C3
+-
+#amp 0.15
+C1
+-
+// Main backing
+#amp 0.25
+C4
+-
+#amp 0.1
+C1
+#amp 0.15
+D1
+#amp 0.25
+C3
+-
+#amp 0.15
+C1
+-
+
+// Fourth-run fill
+#decay 0.1
+#len 0.1
+C4
+-
+#amp 0.1
+C1
+#amp 0.15
+D1
+#amp 0.25
+C2
+D2
+C3
+-
+#endfunc
+
+#func bass_line
+// -------------------------- Bassline  -------------------------------
+#reset
+#tune 1.0
+#decay 0.3
+#len 0.2
+#wave 1
+
+// 00 Part A
+#decay 0.3
+#len 0.2
+C2 
+-
+-
+G1
+-
+C2
+E2
+C2
+F2
+-
+F2
+-
+F#2
+-
+F#2
+-
+
+// 01
+G2
+-
+-
+D2
+-
+D2
+F2
+D2
+E2
+-
+E2
+-
+C2
+-
+B1
+-
+
+// 02
+A1
+-
+-
+A1
+-
+C2
+E2
+C2
+D2
+-
+D2
+-
+A1
+-
+D2
+-
+
+// 03
+#decay 0.5
+#len 0.5
+F2
+-
+-
+-
+E2
+-
+-
+-
+D2
+-
+-
+-
+G2
+-
+-
+-
+
+// Now here comes the A bassline again
+
+// 00 Part A
+#decay 0.3
+#len 0.2
+C2 
+-
+-
+G1
+-
+C2
+E2
+C2
+F2
+-
+F2
+-
+F#2
+-
+F#2
+-
+
+// 01
+G2
+-
+-
+D2
+-
+D2
+F2
+D2
+E2
+-
+E2
+-
+C2
+-
+B1
+-
+
+// 02
+A1
+-
+-
+A1
+-
+C2
+E2
+C2
+D2
+-
+D2
+-
+A1
+-
+D2
+-
+
+// 03
+#decay 0.5
+#len 0.5
+F2
+-
+-
+-
+E2
+-
+-
+-
+D2
+-
+-
+-
+G2
+-
+-
+-
+// 00 Part B!
+#decay 0.4
+#len 0.4
+F2
+-
+-
+-
+G2
+-
+-
+C2
+-
+-
+-
+-
+-
+-
+#decay 0.15
+#len 0.15
+F2
+G2
+// 01
+C2
+-
+-
+C2
+-
+-
+F2
+G2
+C2
+-
+-
+C2
+-
+-
+G2
+-
+
+// 02
+#decay 0.4
+#len 0.4
+F2
+-
+-
+-
+G2
+-
+-
+C2
+-
+-
+-
+-
+-
+-
+#decay 0.15
+#len 0.15
+F2
+G2
+// 03
+C2
+-
+-
+C2
+-
+-
+F2
+G2
+C2
+-
+-
+C2
+-
+-
+G2
+-
+// 00 Part B2
+#decay 0.4
+#len 0.4
+F2
+-
+-
+-
+G2
+-
+-
+C2
+-
+-
+-
+-
+-
+-
+F2
+G2
+#decay 0.15
+#len 0.15
+// 01
+C2
+-
+-
+C2
+-
+-
+F2
+G2
+C2
+-
+-
+C2
+-
+-
+G2
+-
+
+// 02
+#decay 0.4
+#len 0.4
+F2
+-
+-
+-
+G2
+-
+-
+C2
+-
+-
+-
+-
+G2
+-
+-
+-
+#decay 0.4
+#len 0.4
+F2
+-
+-
+-
+E2
+-
+-
+-
+C2
+-
+-
+-
+D2
+-
+-
+-
+
+// 00 Part C
+#decay 0.3
+#len 0.3
+C2
+-
+-
+C2
+-
+-
+C3
+-
+A#1
+-
+-
+A#1
+-
+-
+A#2
+-
+// 01
+C2
+-
+-
+C2
+-
+-
+C3
+C2
+A#1
+A#1
+A1
+A#1
+-
+D2
+G1
+-
+// 02
+C2
+-
+-
+C2
+-
+-
+C3
+-
+A#1
+-
+-
+A#1
+-
+-
+A#2
+-
+// 03
+C2
+-
+-
+C2
+-
+-
+C3
+C2
+A#1
+A#1
+A1
+A#1
+-
+D2
+-
+G1
+// 00 C2
+C2
+-
+-
+C2
+-
+-
+C3
+-
+A#1
+-
+-
+A#1
+-
+-
+A#2
+-
+// 01
+C2
+-
+-
+C2
+-
+-
+C3
+C2
+A#1
+A#1
+A1
+A#1
+-
+D2
+-
+G1
+
+// 02
+C2
+-
+-
+C2
+-
+-
+C3
+-
+A#1
+-
+-
+A#1
+-
+-
+A#2
+-
+
+
+// 03
+
+C2
+C2
+-
+G1
+C2
+C2
+-
+G1
+C2
+-
+G1
+G1
+G#1
+-
+G1
+-
+// Song loops at this point. No more bass.
+#endfunc
+
+#func lead_2
+// ------------------------------- Lead 2 ----------------------------
+#reset
+#tune 1.0
+#amp 0.25
+#decay 0.25
+#len 0.15
+#duty 0.5
+#wave 0
+// 00 Part A
+-
+E4
+G4
+C5
+E5
+E5
+-
+E5
+D5
+-
+D5
+-
+C5
+-
+B4
+-
+// 01
+-
+D4
+G4
+B4
+D5
+D5
+-
+D5
+C5
+-
+E5
+B4
+-
+C5
+-
+A4
+// 02
+-
+-
+-
+E4
+A4
+B4
+C5
+C5
+-
+-
+A4
+-
+E4
+-
+A4
+-
+// 03
+#decay 0.8
+#len 0.5
+A4
+-
+-
+-
+G4
+-
+-
+-
+A4
+-
+-
+-
+B4
+-
+-
+-
+#decay 0.25
+#len 0.15
+// 00 Part A Again
+-
+E4
+G4
+C5
+E5
+E5
+-
+E5
+D5
+-
+D5
+-
+C5
+-
+B4
+-
+// 01
+-
+D4
+G4
+B4
+D5
+D5
+-
+D5
+C5
+-
+E5
+B4
+-
+C5
+-
+A4
+// 02
+-
+-
+-
+E4
+A4
+B4
+C5
+C5
+-
+-
+A4
+-
+E4
+-
+A4
+-
+// 03
+#decay 0.8
+#len 0.5
+A4
+-
+-
+-
+G4
+-
+-
+-
+A4
+-
+-
+-
+B4
+-
+-
+-
+// 00 Part B
+#duty 0.25
+#len 0.6
+#decay 0.8
+F4
+-
+-
+-
+G4
+-
+-
+#len 0.15
+#decay 0.2
+C4
+-
+-
+-
+-
+-
+-
+-
+-
+// 01
+#step 2.4
+-
+// 02
+#step 0.15
+#len 0.6
+#decay 0.8
+F4
+-
+-
+-
+G4
+-
+-
+#len 0.15
+#decay 0.2
+C4
+-
+-
+-
+-
+-
+-
+-
+-
+// 03
+#step 2.4
+-
+// 00 Part 2
+#step 0.15
+#len 0.6
+#decay 0.8
+F4
+-
+-
+-
+G4
+-
+-
+#len 0.3
+#decay 0.2
+C4
+-
+-
+-
+-
+-
+-
+-
+-
+// 01
+#step 2.4
+-
+// 02
+#step 0.15
+#len 0.6
+#decay 0.8
+F4
+-
+-
+-
+G4
+-
+-
+#len 0.3
+#decay 0.2
+C4
+-
+-
+-
+-
+-
+-
+-
+-
+// 03
+#len 0.6
+#decay 0.8
+C5
+-
+-
+-
+C5
+-
+-
+-
+F4
+-
+-
+-
+#len 0.45
+G5
+-
+-
+#len 0.15
+E5
+
+// 00 Part C
+#amp 0.25
+#duty 0.2
+#decay 0.25
+#len 0.15
+#tune .503
+-
+-
+-
+-
+E6
+C6
+G5
+D5
+F5
+-
+-
+-
+F5
+G5
+A5
+G6
+// 01
+-
+-
+-
+-
+E6
+C6
+G5
+E5
+#duty 0.5
+D4
+D4
+C4
+D4
+-
+D4
+-
+G3
+// 02
+--
+C5
+#duty 0.2
+-
+-
+E6
+C6
+G5
+D5
+F5
+-
+-
+-
+F5
+A5
+A#5
+D6
+// 03
+#duty 0.5
+C6
+#len 0.3
+#decay 0.4
+D6
+-
+E6
+-
+F6
+-
+G6
+-
+A7
+#len 0.15
+#decay 0.2
+F6
+G6
+E6
+D6
+-
+E6
+#duty 0.2
+// 04
+-
+-
+-
+-
+E6
+C6
+G5
+D5
+F5
+-
+-
+-
+F5
+G5
+A5
+G5
+// 05
+-
+-
+-
+G6
+E6
+C6
+G5
+E5
+#duty 0.75
+D6
+D6
+C6
+D6
+-
+D6
+-
+C6
+// 06
+-
+E6
+-
+-
+#duty 0.125
+E6
+C6
+G5
+D5
+F5
+-
+-
+-
+F5
+G5
+A5
+F5
+#duty 0.06
+#decay 0.4
+#len 0.26
+C6
+C6
+-
+G5
+C6
+C6
+-
+G5
+C6
+-
+G5
+G5
+G#5
+-
+G5
+-
+
+
+
+
+#endfunc
+
+#func lead_1
+// ------------------------------- Lead 1 ----------------------------
+#reset
+#tune 1.0
+#decay 0.25
+#len 0.3
+#duty 0.25
+#wave 0
+
+// 00 Part A
+#decay 0.3
+#len 0.3
+-
+G4
+C5
+E5
+G5
+G5
+-
+G5
+F5
+-
+F5
+-
+E5
+-
+D5
+-
+// 01
+-
+G4
+B4
+D5
+F5
+F5
+-
+F5
+E5
+-
+G5
+D5
+-
+E5
+-
+C5
+// 02
+-
+-
+-
+G4
+C5
+D5
+E5
+E5
+-
+-
+D5
+-
+A4
+-
+D5
+-
+// 03
+#decay 0.8
+#len 0.6
+C5
+-
+-
+-
+B4
+-
+-
+-
+C5
+-
+-
+-
+D5
+-
+-
+-
+// Part A again
+// 00 Part A
+#decay 0.3
+#len 0.3
+-
+G4
+C5
+E5
+G5
+G5
+-
+G5
+F5
+-
+F5
+-
+E5
+-
+D5
+-
+// 01
+-
+G4
+B4
+D5
+F5
+F5
+-
+F5
+E5
+-
+G5
+D5
+-
+E5
+-
+C5
+// 02
+-
+-
+-
+G4
+C5
+D5
+E5
+E5
+-
+-
+D5
+-
+A4
+-
+D5
+-
+// 03
+#decay 0.8
+#len 0.6
+C5
+-
+-
+-
+B4
+-
+-
+-
+C5
+-
+-
+-
+D5
+-
+-
+-
+
+
+// 00 Part B
+#duty 0.5
+#len 0.15
+#decay 0.2
+-
+G5
+A5
+B5
+C6
+C6
+-
+C6
+#step 0.2
+C6
+B5
+A5
+#step 0.15
+G5
+-
+-
+C5
+// 01
+G5
+-
+A5
+F5
+-
+G5
+-
+F5
+-
+F5
+D5
+E5
+F5
+G5
+A5
+B5
+// 02
+C6
+-
+-
+-
+-
+G5
+A5
+C6
+E6
+C6
+F6
+C6
+G6
+C6
+-
+C6
+// 03
+A6
+-
+A6
+A6
+G6
+-
+F6
+E6
+-
+C6
+D6
+B5
+C6
+-
+-
+-
+// 00 B2
+-
+-
+-
+-
+C6
+G5
+-
+G5
+-
+G5
+-
+G5
+C6
+G5
+D6
+G5
+// 01
+E6
+G5
+-
+G5
+-
+G5
+-
+G5
+F5
+G5
+A5
+A5
+-
+B5
+-
+G5
+// 02
+-
+-
+-
+-
+-
+-
+-
+-
+C6
+D6
+E6
+E6
+-
+E6
+D6
+C6
+// 03
+#duty 0.25
+#decay 0.7
+#len 0.45
+F5
+-
+-
+-
+E5
+-
+-
+-
+C5
+-
+-
+-
+D5
+-
+-
+#decay 0.15
+#len 0.15
+C5
+
+// 00 Part C
+#duty 0.125
+#decay 0.25
+#len 0.15
+-
+-
+-
+-
+G6
+E6
+C6
+G5
+A#5
+-
+-
+-
+A#5
+C6
+D6
+C6
+// 01
+-
+-
+-
+-
+G6
+E6
+C6
+G5
+A#5
+A#5
+A5
+A#5
+-
+A#5
+-
+C6
+// 02
+--
+E6
+-
+-
+G6
+E6
+C6
+G5
+A#5
+-
+-
+-
+A#5
+C6
+D6
+F6
+// 03
+E6
+#len 0.3
+#decay 0.4
+F6
+-
+G6
+-
+A6
+-
+A#6
+-
+C7
+#len 0.15
+#decay 0.2
+A6
+A#6
+G6
+F6
+-
+G6
+// 04
+-
+-
+-
+-
+G6
+E6
+C6
+G5
+A#5
+-
+-
+-
+A#5
+C6
+D6
+C6
+// 05
+-
+-
+-
+C6
+G6
+E6
+C6
+G5
+#duty 0.75
+F6
+F6
+E6
+F6
+-
+F6
+-
+E6
+// 06
+-
+G6
+-
+-
+#duty 0.125
+G6
+E6
+C6
+G5
+A#5
+-
+-
+-
+A#5
+C6
+D6
+A#5
+#duty 0.5
+#decay 0.4
+#len 0.26
+C6
+C6
+-
+G5
+C6
+C6
+-
+G5
+C6
+-
+G5
+G5
+G#5
+-
+G5
+-
+#endfunc
+
+#main
+// Make entire song loop
+#tmod 57.60
+
+#left 1.0
+#right 0.6
+
+#call bass_line
+
+#left 1.0
+#right 0.6
+#call abacking
+
+#left 1.0
+#right 0.0
+#call glissando_l
+
+#left 0.0
+#right 1.0
+#call glissando_r
+
+#left 0.7
+#right 1.0
+#call lead_1
+
+#left 1.0
+#right 1.0
+#call echo1b
+
+#left 1.0
+#right 0.7
+#call extbchords
+
+#left 1.0
+#right 0.7
+#call lead_2
+
+#left 0.8
+#right 1.0
+#call drums
+
+#left 1.0
+#right 0.8
+#call subdrums
+#endmain

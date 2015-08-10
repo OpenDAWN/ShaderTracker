@@ -1,0 +1,202 @@
+#amp 0.33
+#overclock 0.8
+
+// Part of the track "Sophia" from Sunsoft's Gimmick! by Masashi Kageyama
+#func melody
+// "Main lead"
+#reset
+#step 0.15
+#duty 0.5
+#decay 0.6
+#len 0.6
+#amp 0.25
+#wave 2
+#tune 1
+B 4
+C 5
+E 5
+G 5
+B 5
+-
+-
+-
+-
+-
+C 6
+B 5
+-
+G 5
+E 5
+C 5
+B 4
+C 5
+E 5
+G 5
+B 5
+C 6
+B 5
+-
+-
+-
+-
+-
+-
+-
+-
+-
+//
+E 5
+F 5
+A 5
+C 6
+E 6
+-
+-
+-
+-
+-
+F 6
+E 6
+-
+C 6
+A 5
+F 5
+E 5
+F 5
+A 5
+C 6
+E 6
+F 6
+E 6
+-
+-
+-
+-
+-
+-
+-
+-
+-
+#endfunc
+
+#func melody2
+// Slight frequency offset
+#reset
+#step 0.15
+#duty 0.5
+#decay 0.8
+#len 0.7
+#amp 0.25
+#wave 2
+#tune 2.01
+B 4
+C 5
+E 5
+G 5
+B 5
+-
+-
+-
+-
+-
+C 6
+B 5
+-
+G 5
+E 5
+C 5
+B 4
+C 5
+E 5
+G 5
+B 5
+C 6
+B 5
+-
+-
+-
+-
+-
+-
+-
+-
+-
+//
+E 5
+F 5
+A 5
+C 6
+E 6
+-
+-
+-
+-
+-
+F 6
+E 6
+-
+C 6
+A 5
+F 5
+E 5
+F 5
+A 5
+C 6
+E 6
+F 6
+E 6
+-
+-
+-
+-
+-
+-
+-
+-
+-
+#endfunc
+
+// "Basslines"
+#func bass
+#amp 0.1
+#reset
+#decay 1.6
+#step 1.2
+#len 1.2
+#wave 1
+#tune 1.0
+C 2
+G 2
+C 2
+G 2
+F 2
+C 3
+F 2
+F 2
+#endfunc
+
+#func bass2
+#amp 0.1
+#reset
+#decay 1.6
+#step 1.2
+#len 1.2
+#wave 1
+#tune 1.002
+C 2
+G 2
+C 2
+G 2
+F 2
+C 3
+F 2
+F 2
+#endfunc
+#main
+#reset
+#tmod 9.6
+#call bass
+#call bass2
+#call melody
+#call melody2
+#endfunc
