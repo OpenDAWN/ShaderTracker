@@ -26,6 +26,7 @@ extern const char tri_func[];
 extern const char sin_func[];
 extern const char sqr_func[];
 extern const char noi_func[];
+extern const char fm_bell_func[];
 extern const char decay_func[];
 
 extern FILE *track_file;
@@ -55,7 +56,8 @@ typedef enum
 	saw = 1,
 	tri = 2,
 	sine = 3,
-	noise = 4
+	noise = 4,
+	fm_bell = 5
 } wavetype;
 
 extern wavetype wave_sel;

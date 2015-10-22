@@ -4,6 +4,7 @@
 #define TRI_FUNC "tri(t%d, %f, %f)"
 #define SIN_FUNC "sine(t%d, %f, %f)"
 #define SQR_FUNC "sqr(t%d, %f, %f, %f)"
+#define FM_BELL_FUNC "fm_bell(t%d, %f, %f)"
 #define NOI_FUNC "noise(t%d, %f, %f)"
 #define DECAY_FUNC "l_decay(t%d, %f, %f)"
 
@@ -397,6 +398,9 @@ void print_line(float freq, int octave)
 		case noise:
 			sprintf(func_str,NOI_FUNC,tmod_cnt,freq * tune,amp);
 			break;
+		case fm_bell:
+			sprintf(func_str,FM_BELL_FUNC,tmod_cnt,freq * tune,amp);
+			break;
 	}
 	printf("\tresult += ( (t%d>=%f) ? ( (t%d<%f) ? (%s * (%s)) : 0.0) : 0.0);\n",tmod_cnt,start,tmod_cnt,end,decay_str,func_str);
 	
@@ -426,6 +430,11 @@ void print_head(void)
 
 	printf("float l_decay(float t, float s, float l)\n");
 	printf("{\n\treturn clamp(1.0-((t-s)/l), 0.0, 1.0);\n}\n\n");
+
+	printf("float fm_bell(float t, float f, float a)\n");
+	printf("{\n\tf = f / 2.0;");
+	printf("\n\treturn a * sin(t * 2.0 * f + sin(5.0 * t * 2.0 * f));");
+	printf("\n}\n\n");
 
 	//printf("vec2 mainSound(float t0)\n{\n\t");
 	//printf("float result = 0.0;\n");

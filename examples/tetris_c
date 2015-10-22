@@ -1,0 +1,38 @@
+// Tetris Type C (NES) inspired droney tune
+
+#amp 0.2
+#overclock 1.0
+
+// Main melody lead
+#func lead
+#reset
+#step 0.2
+#decay 0.4
+#len 0.4
+#amp 0.2
+#wave 5
+#tune 1
+- 
+C 5
+D#5
+C 5
+F 5
+C 5
+A#5
+C 5
+A 5
+C 5
+G 5
+C 5
+A 5
+C 5
+F 5
+C 5
+#endfunc
+
+#main
+#reset
+#tmod 3.2
+#call lead
+#endmain
+
